@@ -34,7 +34,6 @@ class NumberCore:
         :param array: List of dividend values to be displayed.
         :return: None
         """
-        controller.check_type_list(array)
 
         print(f"Dividend Distribution Sum: {sum(array)}")
         

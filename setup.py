@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="numberdividend",
-    version="0.1",
+    version="0.1.1",
     packages=find_packages(),
     author="Sabolch",
     author_email="sabolch.dev@gmail.com",
@@ -17,7 +17,7 @@ setup(
     ],
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/sabolch/NumberDividend",
+    url="https://github.com/SaboIch/NumberDividend",
     python_requires=">=3.6",
     keywords="dividend distribution analysis",
     install_requires=[

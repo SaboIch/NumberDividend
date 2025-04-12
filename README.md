@@ -38,7 +38,7 @@ Display the dividend distribution using matplotlib.
 ___
 ### CLI Usage
 ```bash
-python -m numberdividend C:\User\path\...\input.csv 300 C:\User\path\...\output.csv --limit 30
+python -m numberdividend C:\User\path\...\input.csv 300 C:\User\path\...\output.csv --limit 30 --display
 ```
 ⚠️ Only `.csv` files are supported as input.
 Structure of `input.csv`:
@@ -57,6 +57,7 @@ Command struct
 | target | int | Value of sum the array |
 | save | str | Output file path |
 | --limit | int | Optional limit on the number of elements considered |
+| --display | none | Optional displays the processed array |
 ### License
 MIT
 ### Author
