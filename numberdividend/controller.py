@@ -1,18 +1,18 @@
-def check_type_list(data):
+def check_type_list(var_name, data):
     if isinstance(data, list):
         return True
     else:
-        raise TypeError("Input data must be a list.")
+        raise TypeError(f"Invalid type for {var_name}: expected list.")
     
-def check_type_float(data):
+def check_type_float(var_name, data):
     data = float(data)
     if isinstance(data, float):
         return True
     else:
-        raise TypeError("Input data must be a float.")
+        raise TypeError(f"Invalid type for {var_name}: expected float.")
     
-def check_type_int(data):
+def check_type_int(var_name, data):
     if isinstance(data, int):
         return True
     else:
-        raise TypeError("Input data must be an int.")
+        raise TypeError(f"Invalid type for {var_name}: expected int.")

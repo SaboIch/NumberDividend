@@ -13,20 +13,21 @@ from numberdividend import NumberCore
 
 array = [1, 2, 3, 5, 6]
 
-div = NumberCore.dividend(array, 900, 3)
+div = NumberCore.dividend(array, 900, 3, 5)
 NumberCore.display(div)
 ```
 ___
 ```python
-NumberCore.dividend(array, target_sum, limit)
+NumberCore.dividend(array, target_sum, limit, decimal)
 ```
 Calculate the dividend distribution of an array.
 | Value | Type | Description |
 |--|--|--|
 | array | List[float] | List of float numbers to be distributed. |
 | target_sum | float | Target sum for the distribution. |
-| limit | int, optional | Maximum number of elements to consider from the array.|
-| return | List[Tuple[int, float]] | List of tuples containing the index and the dividend value |
+| limit | int, optional | Maximum number of elements to consider from the array. |
+| decimal | int, optional | Number of decimal places for the output. |
+| return | List[Tuple[float, float]] | List of tuples containing the index and the dividend value |
 ___
 ```python
 NumberCore.display(array)
